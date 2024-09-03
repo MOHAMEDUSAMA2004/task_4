@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  .navbar {
+    color: white;
+    padding:20px 60px !important;
+    position: relative;
+  }
+
+  .nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+.card{
+    transition: .5s;
+}
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card .btn-primary {
+    transition: .5s;
+  }
+  .card .btn-primary:hover {
+    background-color: #fff;
+    color:#000
+  }
+  .card ul li a {
+    text-decoration: none;
+  }
+  .card ul li a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
